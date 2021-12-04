@@ -147,6 +147,7 @@ func (t *Ticker) DateTime() time.Time {
 	return datetime
 }
 
+
 func (t *Ticker) TruncateDateTime(duration time.Duration) time.Time {
 	return t.DateTime().Truncate(duration)
 }
